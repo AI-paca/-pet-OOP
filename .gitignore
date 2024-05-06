@@ -362,7 +362,12 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 
-# Ignore everything
+# Ignore Everything
 *
-# Except cpp files
+
+# Except .cpp
 !*.cpp
+# Except directories
+!*/
+# Except .gitignore
+!.gitignore
